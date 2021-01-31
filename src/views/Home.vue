@@ -1,42 +1,18 @@
 <template>
-  <div>
+  <div class="mt-3 mb-5">
+      <div class="col-12 text-center mt-5 ">
+        <router-link to="recherche" class="btn btn-lg btn-primary"><span class="fa fa-search"></span> Chercher un Covoit</router-link>
+      </div>
+      <div class="col-12 text-center mt-5">
+        <router-link to="plus" class="btn btn-lg btn-success"><span class="fa fa-plus"></span> Proposer du Covoit</router-link>
+      </div>
 
-    <h1>home page</h1>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      A beatae consequuntur debitis, eius error exercitationem harum
-      hic labore magni minus non nostrum officia officiis possimus
-      quibusdam sapiente sequi veniam! Autem debitis inventore
-      laudantium maiores repellendus reprehenderit saepe ut vel.
-      Ab dignissimos eligendi, ex facere ipsam perferendis placeat quae quos sequi.
-
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      A beatae consequuntur debitis, eius error exercitationem harum
-      hic labore magni minus non nostrum officia officiis possimus
-      quibusdam sapiente sequi veniam! Autem debitis inventore
-      laudantium maiores repellendus reprehenderit saepe ut vel.
-      Ab dignissimos eligendi, ex facere ipsam perferendis placeat quae quos sequi.
-
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      A beatae consequuntur debitis, eius error exercitationem harum
-      hic labore magni minus non nostrum officia officiis possimus
-      quibusdam sapiente sequi veniam! Autem debitis inventore
-      laudantium maiores repellendus reprehenderit saepe ut vel.
-      Ab dignissimos eligendi, ex facere ipsam perferendis placeat quae quos sequi.
-
-    </p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-      A beatae consequuntur debitis, eius error exercitationem harum
-      hic labore magni minus non nostrum officia officiis possimus
-      quibusdam sapiente sequi veniam! Autem debitis inventore
-      laudantium maiores repellendus reprehenderit saepe ut vel.
-      Ab dignissimos eligendi, ex facere ipsam perferendis placeat quae quos sequi.
-
-    </p>
+    <WhyUse />
   </div>
 </template>
+<script>
+import WhyUse from "@/components/WhyUse";
+export default {
+  components: {WhyUse}
+}
+</script>
